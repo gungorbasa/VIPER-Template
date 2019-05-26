@@ -11,8 +11,8 @@ import UIKit
 final class ___VARIABLE_productName:identifier___Builder {
 
     static func make() -> ___VARIABLE_productName:identifier___ViewController {
-        let storyboard = UIStoryboard(name: "StoryboardName", bundle: nil)
-        let view = storyboard.instantiateViewController(withIdentifier: "ViewControllerIdentifier") as! ___VARIABLE_productName:identifier___ViewController
+        let storyboard = UIStoryboard(name: "___VARIABLE_productName:identifier___", bundle: nil)
+        let view = storyboard.instantiateViewController(withIdentifier: "___VARIABLE_productName:identifier___ViewController") as! ___VARIABLE_productName:identifier___ViewController
         // TODO: Injections
         let router = ___VARIABLE_productName:identifier___Router(view)
 //        let networkWorker = NetworkWorker(app.networking)
